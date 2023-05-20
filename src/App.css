@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wall {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(232, 232, 232);
+  width: 25px;
+  height: 25px;
+  transition: background-color .8s;
+  cursor: pointer;
+}
+
+.selectedCard {
+  background-color: #ff72f9;
 }
