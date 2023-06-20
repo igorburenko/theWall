@@ -44,21 +44,28 @@
 
 .row {
   display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 8px;
+  margin-bottom: 8px;
+
+}
+
+.cardWrapper {
+
+  perspective: 80px;
 }
 
 .card {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(232, 232, 232);
+  background-color: rgb(240, 240, 240);
   width: 25px;
   height: 25px;
-  transition: background-color .8s;
+  transition: all  .5s ease-in-out;
   cursor: pointer;
 }
 
 .selectedCard {
   background-color: #ff72f9;
+  transform: rotate3d(0, 0, 1, 180deg) scale(.2, .2);
 }

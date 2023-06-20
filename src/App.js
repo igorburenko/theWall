@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+/* eslint-disable */
 import './App.css';
-import {Wall} from './wall.jsx';
+import { Wall } from './wall';
 
 function App() {
   return (
